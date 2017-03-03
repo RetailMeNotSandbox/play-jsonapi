@@ -12,5 +12,5 @@ publishTo := Some("Nexus Repository Manager OSS" at "https://maven.pkg.rmn.io/ne
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" % "play-json_2.11" % "2.5.12",
-  specs2 % Test
+  "org.specs2" %% "specs2-core" % "2.4.17" % "test"
 )

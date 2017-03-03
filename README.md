@@ -6,13 +6,13 @@ For testing locally
 
 Publishing internally
 ----------
-Credentials should be available at ~/.ivy2/.credentials and are available on LastPass
+Credentials should be available at ~/.ivy2/.credentials
 
     realm=Sonatype Nexus Repository Manager
-    host=maven.pkg.rmn.io
+    host=maven.example.com
     user=***
     password=***
 
 With the above credentials stored:
 
-    sbt pushlish
+    sbt publish
